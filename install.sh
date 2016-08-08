@@ -7,8 +7,8 @@ osname=`echo $os | awk '{print $1}'`
 
 if [[ "$osname" == "Ubuntu" ]];then
     echo "Ubuntu"
-elif [[ "$osname" == "Centos" ]];then
-    echo "Centos"
+elif [[ "$osname" == "CentOS" ]];then
+    echo "CentOS"
 else
     echo "Not Support!!!"
 fi
