@@ -35,7 +35,7 @@ then
 elif [ -f /etc/centos-release ]
 then
     # CentOS release 6.5 (Final)
-    os=`cat /etc/centos-release`
+    os=`sed </etc/redhat-release -e 's/ release / /'`
     $debug && from=' [/etc/centos-release]'
 elif [ -f /etc/lsb-release ]
 then
