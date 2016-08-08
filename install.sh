@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #load check version
-source check_version.sh
+source config/check_version.sh
 
 osname=`echo $os | awk '{print $1}'`
 
