@@ -1,4 +1,0 @@
-#!/bin/sh
-#
-# author sangnv
-#
